@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_area {
+    width: 100%;
+    height: 220px;
+    border-bottom: 3px solid #F7C0D5;
+
+}
+
+.wrapper {
+    width: 1140px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    width: 120px;
+    height: 95px;
+    padding-top: 5px;
+}
+
+.header h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 5em;
+    padding: 2px;
+
+}
+
+.header h1 a {
+    text-decoration: none;
+    color: rgba(229, 34, 100, 0.87);
+}
+
+
+.header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+
+/*....menubar start...*/
+
+.menu_area {
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+
+}
+
+.menu_area .wrapper {
+    width: 1140px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+
+.menu_area .menu li {
+    display: inline;
+    list-style: none;
+    padding-left: 50px;
+    line-height: 70px;
+    text-transform: uppercase;
+
+}
+
+.menu_area .menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu_area .menu li a:hover {
+    color: #eb5f95;
+}
+
+
+/*....banner part start...*/
+
+
+.banner {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://i.postimg.cc/PJ3L77rc/download-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.banner .content {
+    max-width: 900px;
+    text-align: center;
+    margin-top: -100px;
+
+}
+
+.banner .content h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 6em;
+    color: #fff;
+}
+
+.banner .content p {
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn {
+    font-size: 1em;
+    color: #fff;
+    background: rgba(229, 34, 100, 0.87);
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    letter-spacing: 6px;
+}
+
+
+
+
+
+
+
+/*...about us part start...*/
+
+.about {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.about .wrapper {
+    width: 1140px;
+    height: 400px;
+    margin: 0 auto;
+
+}
+
+.row {
+    width: 1140px;
+    height: 400px;
+    display: flex;
+}
+
+.row .text {
+    width: 570px;
+    height: 380px;
+    padding: 2px;
+
+}
+
+
+.row .text .titletext {
+    font-family: 'Tangerine', cursive;
+    color: rgba(229, 34, 100, 0.87);
+    font-size: 3em;
+    letter-spacing: 1.5px;
+    text-align: center;
+
+}
+
+
+.row .text p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+
+
+
+}
+
+.text .btn {
+    font-size: 1em;
+    color: #fff;
+    background: rgba(229, 34, 100, 0.87);
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 40px;
+}
+
+.text .btn:hover {
+    letter-spacing: 6px;
+}
+
+
+.row .imgbx {
+    width: 570px;
+    height: 380px;
+}
+
+.row .imgbx img {
+
+    width: 570px;
+    min-height: 300px;
+    margin-left: 50px;
+
+}
+
+
+
+
+/*...picture part start...*/
+
+
+.dishes {
+    width: 100%;
+    height: 500px;
+    background-color: #BEE3EB;
+
+
+}
+
+.dishes .wrapper {
+    width: 1140px;
+    height: 450px;
+    margin: 0 auto;
+
+}
+
+.container1 {
+    width: 1140px;
+    height: 50px;
+    padding: 15px;
+
+}
+
+.title h2 {
+    font-family: 'Tangerine', cursive;
+    color: rgba(229, 34, 100, 0.87);
+    font-size: 3em;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.title p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.container2 {
+    width: 1140px;
+    height: 350px;
+    display: flex;
+    margin-top: 50px;
+    background-color: #BEE3EB;
+
+}
+
+.container2 .box {
+    width: 260px;
+    margin: 15px;
+}
+
+
+.container2 .box .imgbx {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+
+.container2 .box .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgba(229, 34, 100, 0.87);
+}
+
+.container2 .box .text {
+    padding: 15px 0 5px;
+    background-color: #BEE3EB;
+}
+
+
+.container2 .box .text h3 {
+    font-family: 'Tangerine', cursive;
+    font-size: 28px;
+    color: #111;
+}
+
+
+
+/*......copyRight us part start...*/
+
+.footer {
+    width: 100%;
+    height: 100px;
+    padding-top: 2px;
+    border-top: 3px solid #F7C0D5;
+    border-bottom: 3px solid #F7C0D5;
+
+}
+
+.footer .wrapper {
+    width: 1140px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+
+.container3 {
+    display: flex;
+
+}
+
+.container3 .copyright {
+    width: 550px;
+    padding: 2px;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+
+.container3 p {
+    width: 800px;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.container3 p a {
+    color: rgba(229, 34, 100, 0.87);
+
+}
+
+
+.container3 .socialicon {
+    width: 550px;
+    padding: 2px;
+    text-align: center;
+
+
+
+}
+
+.container3 .socialicon h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.container3 .socialicon .icons {
+    text-align: center;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+
+.container3 .socialicon .icons i {
+    padding-left: 25px;
+    color: #eb5f95;
+    font-size: 35px;
+    padding-top: 10px;
+
+}
